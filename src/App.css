@@ -28,6 +28,16 @@
   color: #61dafb;
 }
 
+/* CSS PROPIO */
+.hoverable {
+  color: white;
+  transition: all 1s; }
+
+.hoverable:hover {
+  color: #c7bb11;
+  transition: all 1s; }
+
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
