@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.498df368.css",
-    "main.js": "/static/js/main.0596ddc9.js",
-    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/index.html",
-    "main.498df368.css.map": "/static/css/main.498df368.css.map",
-    "main.0596ddc9.js.map": "/static/js/main.0596ddc9.js.map",
-    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/PreEntrega1-SanchezAgustin/static/css/main.498df368.css",
+    "main.js": "/PreEntrega1-SanchezAgustin/static/js/main.6937d814.js",
+    "static/js/787.28cb0dcd.chunk.js": "/PreEntrega1-SanchezAgustin/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/PreEntrega1-SanchezAgustin/index.html",
+    "main.498df368.css.map": "/PreEntrega1-SanchezAgustin/static/css/main.498df368.css.map",
+    "main.6937d814.js.map": "/PreEntrega1-SanchezAgustin/static/js/main.6937d814.js.map",
+    "787.28cb0dcd.chunk.js.map": "/PreEntrega1-SanchezAgustin/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.498df368.css",
-    "static/js/main.0596ddc9.js"
+    "static/js/main.6937d814.js"
   ]
 }

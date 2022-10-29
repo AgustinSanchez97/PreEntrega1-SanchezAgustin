@@ -13,7 +13,7 @@ function App() {
 
   return (
     
-    <BrowserRouter basename='https://github.com/AgustinSanchez97/PreEntrega1-SanchezAgustin'>      
+    <BrowserRouter basename='PreEntrega1-SanchezAgustin'>      
       <CartProvider>
         <NavBar/>
         <Routes>
