@@ -13,7 +13,7 @@ const ItemDetailContainer = () => {
   const{id} = useParams()
   
   useEffect(()=> {
-    getProduct(id,"id")
+    getProduct(id)
     .then((data) => {      
       setProduct(data)
     })
@@ -21,9 +21,8 @@ const ItemDetailContainer = () => {
   },[id])
   
   return(
-    <Container>
-      {product && <ItemDetail productData={product}/>}
-      <h1> prueba</h1>
+    <Container className="container text-white">
+      {product && <ItemDetail productData={product}/>}      
     </Container>
 
     )

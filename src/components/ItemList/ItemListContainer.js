@@ -30,14 +30,19 @@ const ItemListContainer = ({greeting}) =>{
         }
     },[categoryName])
 
-    
+
+
+
 
     return(
         <>
-            <h1>Productos</h1>
+        <div className='container text-white'>
+
+            
             <h3 className="greetingText">{greeting}</h3>
             {products && <ItemList products={products} />}
 
+        </div>
         </>
 
     )
