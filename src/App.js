@@ -14,7 +14,7 @@ function App() {
 
   return (
     
-    <BrowserRouter>      
+    <BrowserRouter basename='https://github.com/AgustinSanchez97/PreEntrega1-SanchezAgustin'>      
       <CartProvider>
         <NavBar/>
         <Routes>
