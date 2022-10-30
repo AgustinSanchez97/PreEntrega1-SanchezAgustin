@@ -15,22 +15,7 @@ const OrderModal = ({showModal,onClose}) =>{
         email: ""
     });
 
-        /*
-    const handleSubmit = async (event) =>
-    {
-        event.preventDefault()
-        
-        const newOrder = {
-            buyer : buyerMock,
-            items: cart,
-            total: finalPrice
 
-        }
-        const newOrderId = await createOrder(newOrder)
-        setOrderId(newOrderId)
-        clear()
-    }
-    */
 
     const [validated, setValidated] = useState(false);
 
@@ -42,9 +27,6 @@ const OrderModal = ({showModal,onClose}) =>{
     const [orderInProgress, setorderInProgress] = useState(false);
 
 
-    //let firstEmail = "first"
-    //let secondEmail = "second"
-    //let emailValidated = false
 
     //Tuve que ponerlo en el use effect porque por algun motivo si lo hacia en onChange siempre estaba atrasado el value por 1 letra. Me contaba que estaba en true cuando debia ser el estado anterior y se setteaba en false cuando tenia que estar en true :,)
     useEffect(()=>{
@@ -151,20 +133,9 @@ const OrderModal = ({showModal,onClose}) =>{
                         </>
                     )}
                 </Form>
-                {/* onClick={handleSubmit} */}
             </Modal.Body>
             <Modal.Footer>
-                
-                {/*!showOrderId &&(
-                        <>
-                            <Button variant="secondary" onClick={ () =>onClose()}>
-                                Cancelar
-                            </Button>
-                            <Button variant="primary" onClick={ () =>onBuy()}>
-                                Comprar
-                            </Button>                    
-                        </>
-                )*/}
+
                 {orderId &&(
                     <>
                          <Alert key={"success"} variant={"success"}>

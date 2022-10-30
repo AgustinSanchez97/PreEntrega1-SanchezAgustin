@@ -22,7 +22,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
-  "homepage":"https://agustinsanchez97.github.io/PreEntrega1-SanchezAgustin",
+  "homepage":"https://agustinsanchez97.github.io/ProyectoFinalReactJS-SanchezAgustin",
   "eslintConfig": {
     "extends": [
       "react-app",

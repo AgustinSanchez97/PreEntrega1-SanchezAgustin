@@ -15,7 +15,6 @@ const ItemCount = ({ initial, stock,cartQuantity,onAdd,handleOutOfStock}) =>{
     const handleCount = (value) =>{        
         setCount(value)
     }
-    //console.log(cartQuantity !== undefined)
      
     const stockValue = (initialStock)=>{
         if(typeof(cartQuantity) !== "undefined") 

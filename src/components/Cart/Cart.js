@@ -18,10 +18,6 @@ const Cart = () => {
     const [showModal, setShowModal]= useState(false)
 
     
-    // const finalPrice = cart.reduce((count,item) => count + (item.price*item.quantity),0)
-    // const finalQuantity = cart.reduce((count,item) => count + item.quantity,0)
-    
-    
 
     function handleRemove(itemId)
     {
@@ -157,7 +153,6 @@ return(
                     </Link>
                 </>
             )}
-            {/*crear un nuevo componente para crear la orden */}
             <OrderModal 
             showModal={showModal} 
             onClose={handleClose}            

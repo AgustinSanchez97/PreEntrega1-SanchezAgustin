@@ -13,7 +13,7 @@ function App() {
 
   return (
     
-    <BrowserRouter basename='/PreEntrega1-SanchezAgustin'>      
+    <BrowserRouter basename='/ProyectoFinalReactJS-SanchezAgustin'>      
       <CartProvider>
         <NavBar/>
         <Routes>

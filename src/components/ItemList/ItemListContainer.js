@@ -16,7 +16,6 @@ const ItemListContainer = ({greeting}) =>{
     useEffect(()=>{
 
         if(categoryName){
-            //console.log(categoryName)
             getProductsByClothType(categoryName)
             .then((productsData) => setProducts(productsData))
             .catch((error)=> console.warn(error))

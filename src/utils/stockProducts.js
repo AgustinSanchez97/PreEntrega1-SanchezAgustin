@@ -11,7 +11,6 @@ export const getAllProducts = () =>{
           id: doc.id,
           ...doc.data()
         })); 
-        //console.log(list)
         return list
     })
     .catch(error => console.warn(error))
@@ -21,7 +20,6 @@ export const getAllProducts = () =>{
 export const getProduct = (id ) =>{
     const database = getFirestore()
     const itemReference = doc(database, "Items", id)
-    //console.log(itemReference)
     return getDoc(itemReference)
         .then(snapshot => {
         if (snapshot.exists()){
@@ -50,7 +48,6 @@ export const getProduct = (id ) =>{
           id: doc.id,
           ...doc.data()
         })); 
-        //console.log(list)
         return list
     })
     .catch(error => console.warn(error))

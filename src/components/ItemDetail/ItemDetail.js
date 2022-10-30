@@ -11,7 +11,6 @@ import Item from "../ItemList/Item"
 const ItemDetail = ({productData}) => {
     const{ cart} = useContext(CartContext)
 
-    //console.log(productData.id)
 
     
     
