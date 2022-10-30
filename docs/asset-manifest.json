@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/PreEntrega1-SanchezAgustin/static/css/main.498df368.css",
-    "main.js": "/PreEntrega1-SanchezAgustin/static/js/main.6937d814.js",
-    "static/js/787.28cb0dcd.chunk.js": "/PreEntrega1-SanchezAgustin/static/js/787.28cb0dcd.chunk.js",
-    "index.html": "/PreEntrega1-SanchezAgustin/index.html",
-    "main.498df368.css.map": "/PreEntrega1-SanchezAgustin/static/css/main.498df368.css.map",
-    "main.6937d814.js.map": "/PreEntrega1-SanchezAgustin/static/js/main.6937d814.js.map",
-    "787.28cb0dcd.chunk.js.map": "/PreEntrega1-SanchezAgustin/static/js/787.28cb0dcd.chunk.js.map"
+    "main.css": "/ProyectoFinalReactJS-SanchezAgustin/static/css/main.498df368.css",
+    "main.js": "/ProyectoFinalReactJS-SanchezAgustin/static/js/main.6f4db4b1.js",
+    "static/js/787.28cb0dcd.chunk.js": "/ProyectoFinalReactJS-SanchezAgustin/static/js/787.28cb0dcd.chunk.js",
+    "index.html": "/ProyectoFinalReactJS-SanchezAgustin/index.html",
+    "main.498df368.css.map": "/ProyectoFinalReactJS-SanchezAgustin/static/css/main.498df368.css.map",
+    "main.6f4db4b1.js.map": "/ProyectoFinalReactJS-SanchezAgustin/static/js/main.6f4db4b1.js.map",
+    "787.28cb0dcd.chunk.js.map": "/ProyectoFinalReactJS-SanchezAgustin/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.498df368.css",
-    "static/js/main.6937d814.js"
+    "static/js/main.6f4db4b1.js"
   ]
 }
