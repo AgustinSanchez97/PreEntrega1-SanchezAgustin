@@ -9,7 +9,12 @@ Este proyecto fue creado con:
 
 ### Deployment
 
-Poner link de GitHub
+https://agustinsanchez97.github.io/PreEntrega1-SanchezAgustin
+
+
+## Demo
+
+![](https://firebasestorage.googleapis.com/v0/b/coderhouse-ecommerce-2ea33.appspot.com/o/Recorrido.gif?alt=media&token=02c87fa1-730d-4696-84f3-c7d6b1b4d788)
 
 ## Estructura de directorios
 
